@@ -23,4 +23,5 @@ urlpatterns = [
     path('api/location', include('location.urls')),
     path('api/diary', include('diary.urls')),
     path('api/routine', include('routine.urls')),
+    path('api/flower', include('flower.urls')),
 ]
